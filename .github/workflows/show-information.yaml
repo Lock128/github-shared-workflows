@@ -3,6 +3,7 @@ name: Repository Information
 on:
   workflow_dispatch:
   push:
+  workflow_call:
 
 jobs:
   repo-info:
